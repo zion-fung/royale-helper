@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CardSelectionPage } from "../../pages/card-selection/card-selection";
-import { ModalController } from "ionic-angular";
+import { ModalController, PopoverController } from "ionic-angular";
+import { PopoverOptionsPage } from "../../pages/popover-options/popover-options";
 
 /**
  * Generated class for the CardDeckComponent component.
@@ -16,7 +17,7 @@ export class CardDeckComponent {
 
     text: string;
 
-    constructor(public modalCtrl: ModalController) {
+    constructor(public modalCtrl: ModalController, private popover: PopoverController) {
         console.log('Hello CardDeckComponent Component');
         this.text = 'Hello World';
     }
@@ -32,4 +33,8 @@ export class CardDeckComponent {
         modal.present();
     }
 
+    showAdditionalOptions(event) {
+        const popover = this.popover.create(PopoverOptionsPage);
+        popover.present({ev: event});
+    }
 }

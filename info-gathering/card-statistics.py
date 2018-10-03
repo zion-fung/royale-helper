@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from os import listdir
-if __name__ == "__main__":
+import json
+def get_stats():
     base_url = "http://clashroyale.wikia.com/wiki/"
     cards = listdir("../src/assets/imgs/cards")
     file = open("cards.json", "w")
@@ -40,3 +41,25 @@ if __name__ == "__main__":
     file.write("]")
     file.close()
     print("Wrote:", i, "cards")
+def sort_cards():
+    j = json.loads(open("cards-elixir-asc.json", "r").read())
+    commons = []
+    rares = []
+    epics = []
+    legendaries = []
+    for card in j:
+        if card["rarity"] == "Common":
+            commons.append(card)
+        elif card["rarity"] == "Rare":
+            rares.append(card)
+        elif card["rarity"] == "Epic":
+            epics.append(card)
+        else:
+            legendaries.append(card)
+    # j.sort(key=lambda card: card["elixir"], reverse=True)
+    asc = legendaries + epics + rares + commons
+    file = open("rarity-desc.json", "w")
+    file.write(str(asc))
+    file.close()
+if __name__ == "__main__":
+    sort_cards()

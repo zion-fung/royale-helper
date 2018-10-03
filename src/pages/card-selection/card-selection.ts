@@ -29,7 +29,7 @@ export class CardSelectionPage {
         // console.log('ionViewDidLoad CardSelectionPage');
     }
 
-    sortMethod = ["Name", "Elixir Descending", "Elixir Ascending", "Rarity Descending", "Rarity Ascending"];
+    sortMethod = ["Name", "Elixir Ascending", "Elixir Descending", "Rarity Ascending", "Rarity Descending"];
     index = 0;
     filterStack = [];
 
@@ -47,6 +47,17 @@ export class CardSelectionPage {
     }
     changeSortMethod() {
         this.index = (this.index + 1) % this.sortMethod.length;
+        if(this.index == 0) {
+            this.cards = CardInformation.getAllCards();
+        } else if(this.index == 1) {
+            this.cards = CardInformation.cards_elixir_asc;
+        } else if(this.index == 2) {
+            this.cards = CardInformation.cards_elixir_desc;
+        } else if(this.index == 3) {
+            this.cards = CardInformation.cards_rarity_asc;
+        } else if(this.index == 4) {
+            this.cards = CardInformation.cards_rarity_desc;
+        }
     }
     chooseCard(event) {
         let source = event.target.src;
