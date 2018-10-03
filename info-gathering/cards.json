@@ -1,1 +1,618 @@
-[{"src": "assets/imgs/cards/ArchersCard.png", "elixir": "3", "rarity": "Common", "name": "Archers"},{"src": "assets/imgs/cards/ArrowsCard.png", "elixir": "3", "rarity": "Common", "name": "Arrows"},{"src": "assets/imgs/cards/BabyDragonCard.png", "elixir": "4", "rarity": "Epic", "name": "Baby Dragon"},{"src": "assets/imgs/cards/BalloonCard.png", "elixir": "5", "rarity": "Epic", "name": "Balloon"},{"src": "assets/imgs/cards/BanditCard.png", "elixir": "3", "rarity": "Legendary", "name": "Bandit"},{"src": "assets/imgs/cards/BarbarianBarrelCard.png", "elixir": "2", "rarity": "Epic", "name": "Barbarian Barrel"},{"src": "assets/imgs/cards/BarbarianHutCard.png", "elixir": "7", "rarity": "Rare", "name": "Barbarian Hut"},{"src": "assets/imgs/cards/BarbariansCard.png", "elixir": "5", "rarity": "Common", "name": "Barbarians"},{"src": "assets/imgs/cards/BatsCard.png", "elixir": "2", "rarity": "Common", "name": "Bats"},{"src": "assets/imgs/cards/BattleRamCard.png", "elixir": "4", "rarity": "Rare", "name": "Battle Ram"},{"src": "assets/imgs/cards/BomberCard.png", "elixir": "3", "rarity": "Common", "name": "Bomber"},{"src": "assets/imgs/cards/BombTowerCard.png", "elixir": "4", "rarity": "Rare", "name": "Bomb Tower"},{"src": "assets/imgs/cards/BowlerCard.png", "elixir": "5", "rarity": "Epic", "name": "Bowler"},{"src": "assets/imgs/cards/CannonCard.png", "elixir": "3", "rarity": "Common", "name": "Cannon"},{"src": "assets/imgs/cards/CannonCartCard.png", "elixir": "5", "rarity": "Epic", "name": "Cannon Cart"},{"src": "assets/imgs/cards/CloneCard.png", "elixir": "3", "rarity": "Epic", "name": "Clone"},{"src": "assets/imgs/cards/DarkPrinceCard.png", "elixir": "4", "rarity": "Epic", "name": "Dark Prince"},{"src": "assets/imgs/cards/DartGoblinCard.png", "elixir": "3", "rarity": "Rare", "name": "Dart Goblin"},{"src": "assets/imgs/cards/ElectroWizardCard.png", "elixir": "4", "rarity": "Legendary", "name": "Electro Wizard"},{"src": "assets/imgs/cards/EliteBarbariansCard.png", "elixir": "6", "rarity": "Common", "name": "Elite Barbarians"},{"src": "assets/imgs/cards/ElixirCollectorCard.png", "elixir": "6", "rarity": "Rare", "name": "Elixir Collector"},{"src": "assets/imgs/cards/ExecutionerCard.png", "elixir": "5", "rarity": "Epic", "name": "Executioner"},{"src": "assets/imgs/cards/FireballCard.png", "elixir": "4", "rarity": "Rare", "name": "Fireball"},{"src": "assets/imgs/cards/FireSpiritsCard.png", "elixir": "2", "rarity": "Common", "name": "Fire Spirits"},{"src": "assets/imgs/cards/FlyingMachineCard.png", "elixir": "4", "rarity": "Rare", "name": "Flying Machine"},{"src": "assets/imgs/cards/FreezeCard.png", "elixir": "4", "rarity": "Epic", "name": "Freeze"},{"src": "assets/imgs/cards/FurnaceCard.png", "elixir": "4", "rarity": "Rare", "name": "Furnace"},{"src": "assets/imgs/cards/GiantCard.png", "elixir": "5", "rarity": "Rare", "name": "Giant"},{"src": "assets/imgs/cards/GiantSkeletonCard.png", "elixir": "6", "rarity": "Epic", "name": "Giant Skeleton"},{"src": "assets/imgs/cards/GiantSnowballCard.png", "elixir": "2", "rarity": "Common", "name": "Giant Snowball"},{"src": "assets/imgs/cards/GoblinBarrelCard.png", "elixir": "3", "rarity": "Epic", "name": "Goblin Barrel"},{"src": "assets/imgs/cards/GoblinGangCard.png", "elixir": "3", "rarity": "Common", "name": "Goblin Gang"},{"src": "assets/imgs/cards/GoblinGiantCard.png", "elixir": "6", "rarity": "Epic", "name": "Goblin Giant"},{"src": "assets/imgs/cards/GoblinHutCard.png", "elixir": "5", "rarity": "Rare", "name": "Goblin Hut"},{"src": "assets/imgs/cards/GoblinsCard.png", "elixir": "2", "rarity": "Common", "name": "Goblins"},{"src": "assets/imgs/cards/GolemCard.png", "elixir": "8", "rarity": "Epic", "name": "Golem"},{"src": "assets/imgs/cards/GraveyardCard.png", "elixir": "5", "rarity": "Legendary", "name": "Graveyard"},{"src": "assets/imgs/cards/GuardsCard.png", "elixir": "3", "rarity": "Epic", "name": "Guards"},{"src": "assets/imgs/cards/HealCard.png", "elixir": "3", "rarity": "Rare", "name": "Heal"},{"src": "assets/imgs/cards/HogRiderCard.png", "elixir": "4", "rarity": "Rare", "name": "Hog Rider"},{"src": "assets/imgs/cards/HunterCard.png", "elixir": "4", "rarity": "Epic", "name": "Hunter"},{"src": "assets/imgs/cards/IceGolemCard.png", "elixir": "2", "rarity": "Rare", "name": "Ice Golem"},{"src": "assets/imgs/cards/IceSpiritCard.png", "elixir": "1", "rarity": "Common", "name": "Ice Spirit"},{"src": "assets/imgs/cards/IceWizardCard.png", "elixir": "3", "rarity": "Legendary", "name": "Ice Wizard"},{"src": "assets/imgs/cards/InfernoDragonCard.png", "elixir": "4", "rarity": "Legendary", "name": "Inferno Dragon"},{"src": "assets/imgs/cards/InfernoTowerCard.png", "elixir": "5", "rarity": "Rare", "name": "Inferno Tower"},{"src": "assets/imgs/cards/KnightCard.png", "elixir": "3", "rarity": "Common", "name": "Knight"},{"src": "assets/imgs/cards/LavaHoundCard.png", "elixir": "7", "rarity": "Legendary", "name": "Lava Hound"},{"src": "assets/imgs/cards/LightningCard.png", "elixir": "6", "rarity": "Epic", "name": "Lightning"},{"src": "assets/imgs/cards/LumberjackCard.png", "elixir": "4", "rarity": "Legendary", "name": "Lumberjack"},{"src": "assets/imgs/cards/MagicArcherCard.png", "elixir": "4", "rarity": "Legendary", "name": "Magic Archer"},{"src": "assets/imgs/cards/MegaKnightCard.png", "elixir": "7", "rarity": "Legendary", "name": "Mega Knight"},{"src": "assets/imgs/cards/MegaMinionCard.png", "elixir": "3", "rarity": "Rare", "name": "Mega Minion"},{"src": "assets/imgs/cards/MinerCard.png", "elixir": "3", "rarity": "Legendary", "name": "Miner"},{"src": "assets/imgs/cards/MinionHordeCard.png", "elixir": "5", "rarity": "Common", "name": "Minion Horde"},{"src": "assets/imgs/cards/MinionsCard.png", "elixir": "3", "rarity": "Common", "name": "Minions"},{"src": "assets/imgs/cards/MiniPEKKACard.png", "elixir": "4", "rarity": "Rare", "name": "Mini P.E.K.K.A"},{"src": "assets/imgs/cards/MirrorCard.png", "elixir": "0", "rarity": "Epic", "name": "Mirror"},{"src": "assets/imgs/cards/MortarCard.png", "elixir": "4", "rarity": "Common", "name": "Mortar"},{"src": "assets/imgs/cards/MusketeerCard.png", "elixir": "4", "rarity": "Rare", "name": "Musketeer"},{"src": "assets/imgs/cards/NightWitchCard.png", "elixir": "4", "rarity": "Legendary", "name": "Night Witch"},{"src": "assets/imgs/cards/PEKKACard.png", "elixir": "7", "rarity": "Epic", "name": "P.E.K.K.A"},{"src": "assets/imgs/cards/PoisonCard.png", "elixir": "4", "rarity": "Epic", "name": "Poison"},{"src": "assets/imgs/cards/PrinceCard.png", "elixir": "5", "rarity": "Epic", "name": "Prince"},{"src": "assets/imgs/cards/PrincessCard.png", "elixir": "3", "rarity": "Legendary", "name": "Princess"},{"src": "assets/imgs/cards/RageCard.png", "elixir": "2", "rarity": "Epic", "name": "Rage"},{"src": "assets/imgs/cards/RascalsCard.png", "elixir": "5", "rarity": "Common", "name": "Rascals"},{"src": "assets/imgs/cards/RocketCard.png", "elixir": "6", "rarity": "Rare", "name": "Rocket"},{"src": "assets/imgs/cards/RoyalGhostCard.png", "elixir": "3", "rarity": "Legendary", "name": "Royal Ghost"},{"src": "assets/imgs/cards/RoyalGiantCard.png", "elixir": "6", "rarity": "Common", "name": "Royal Giant"},{"src": "assets/imgs/cards/RoyalHogsCard.png", "elixir": "5", "rarity": "Rare", "name": "Royal Hogs"},{"src": "assets/imgs/cards/RoyalRecruitsCard.png", "elixir": "8", "rarity": "Common", "name": "Royal Recruits"},{"src": "assets/imgs/cards/SkeletonArmyCard.png", "elixir": "3", "rarity": "Epic", "name": "Skeleton Army"},{"src": "assets/imgs/cards/SkeletonBarrelCard.png", "elixir": "3", "rarity": "Common", "name": "Skeleton Barrel"},{"src": "assets/imgs/cards/SkeletonsCard.png", "elixir": "1", "rarity": "Common", "name": "Skeletons"},{"src": "assets/imgs/cards/SparkyCard.png", "elixir": "6", "rarity": "Legendary", "name": "Sparky"},{"src": "assets/imgs/cards/SpearGoblinsCard.png", "elixir": "2", "rarity": "Common", "name": "Spear Goblins"},{"src": "assets/imgs/cards/TeslaCard.png", "elixir": "4", "rarity": "Common", "name": "Tesla"},{"src": "assets/imgs/cards/TheLogCard.png", "elixir": "2", "rarity": "Legendary", "name": "The Log"},{"src": "assets/imgs/cards/ThreeMusketeersCard.png", "elixir": "9", "rarity": "Rare", "name": "Three Musketeers"},{"src": "assets/imgs/cards/TombstoneCard.png", "elixir": "3", "rarity": "Rare", "name": "Tombstone"},{"src": "assets/imgs/cards/TornadoCard.png", "elixir": "3", "rarity": "Epic", "name": "Tornado"},{"src": "assets/imgs/cards/ValkyrieCard.png", "elixir": "4", "rarity": "Rare", "name": "Valkyrie"},{"src": "assets/imgs/cards/WitchCard.png", "elixir": "5", "rarity": "Epic", "name": "Witch"},{"src": "assets/imgs/cards/WizardCard.png", "elixir": "5", "rarity": "Rare", "name": "Wizard"},{"src": "assets/imgs/cards/X-BowCard.png", "elixir": "6", "rarity": "Epic", "name": "X-Bow"},{"src": "assets/imgs/cards/ZapCard.png", "elixir": "2", "rarity": "Common", "name": "Zap"},{"src": "assets/imgs/cards/ZappiesCard.png", "elixir": "4", "rarity": "Rare", "name": "Zappies"}]
+[
+    {
+      "src": "assets/imgs/cards/KnightCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Knight",
+      "card_id": 26000000
+    },
+    {
+      "src": "assets/imgs/cards/ArchersCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Archers",
+      "card_id": 26000001
+    },
+    {
+      "src": "assets/imgs/cards/GoblinsCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Goblins",
+      "card_id": 26000002
+    },
+    {
+      "src": "assets/imgs/cards/GiantCard.png",
+      "elixir": 5,
+      "rarity": "Rare",
+      "name": "Giant",
+      "card_id": 26000003
+    },
+    {
+      "src": "assets/imgs/cards/PEKKACard.png",
+      "elixir": 7,
+      "rarity": "Epic",
+      "name": "P.E.K.K.A",
+      "card_id": 26000004
+    },
+    {
+      "src": "assets/imgs/cards/MinionsCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Minions",
+      "card_id": 26000005
+    },
+    {
+      "src": "assets/imgs/cards/BalloonCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Balloon",
+      "card_id": 26000006
+    },
+    {
+      "src": "assets/imgs/cards/WitchCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Witch",
+      "card_id": 26000007
+    },
+    {
+      "src": "assets/imgs/cards/BarbariansCard.png",
+      "elixir": 5,
+      "rarity": "Common",
+      "name": "Barbarians",
+      "card_id": 26000008
+    },
+    {
+      "src": "assets/imgs/cards/GolemCard.png",
+      "elixir": 8,
+      "rarity": "Epic",
+      "name": "Golem",
+      "card_id": 26000009
+    },
+    {
+      "src": "assets/imgs/cards/SkeletonsCard.png",
+      "elixir": 1,
+      "rarity": "Common",
+      "name": "Skeletons",
+      "card_id": 26000010
+    },
+    {
+      "src": "assets/imgs/cards/ValkyrieCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Valkyrie",
+      "card_id": 26000011
+    },
+    {
+      "src": "assets/imgs/cards/SkeletonArmyCard.png",
+      "elixir": 3,
+      "rarity": "Epic",
+      "name": "Skeleton Army",
+      "card_id": 26000012
+    },
+    {
+      "src": "assets/imgs/cards/BomberCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Bomber",
+      "card_id": 26000013
+    },
+    {
+      "src": "assets/imgs/cards/MusketeerCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Musketeer",
+      "card_id": 26000014
+    },
+    {
+      "src": "assets/imgs/cards/BabyDragonCard.png",
+      "elixir": 4,
+      "rarity": "Epic",
+      "name": "Baby Dragon",
+      "card_id": 26000015
+    },
+    {
+      "src": "assets/imgs/cards/PrinceCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Prince",
+      "card_id": 26000016
+    },
+    {
+      "src": "assets/imgs/cards/WizardCard.png",
+      "elixir": 5,
+      "rarity": "Rare",
+      "name": "Wizard",
+      "card_id": 26000017
+    },
+    {
+      "src": "assets/imgs/cards/MiniPEKKACard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Mini P.E.K.K.A",
+      "card_id": 26000018
+    },
+    {
+      "src": "assets/imgs/cards/SpearGoblinsCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Spear Goblins",
+      "card_id": 26000019
+    },
+    {
+      "src": "assets/imgs/cards/GiantSkeletonCard.png",
+      "elixir": 6,
+      "rarity": "Epic",
+      "name": "Giant Skeleton",
+      "card_id": 26000020
+    },
+    {
+      "src": "assets/imgs/cards/HogRiderCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Hog Rider",
+      "card_id": 26000021
+    },
+    {
+      "src": "assets/imgs/cards/MinionHordeCard.png",
+      "elixir": 5,
+      "rarity": "Common",
+      "name": "Minion Horde",
+      "card_id": 26000022
+    },
+    {
+      "src": "assets/imgs/cards/IceWizardCard.png",
+      "elixir": 3,
+      "rarity": "Legendary",
+      "name": "Ice Wizard",
+      "card_id": 26000023
+    },
+    {
+      "src": "assets/imgs/cards/RoyalGiantCard.png",
+      "elixir": 6,
+      "rarity": "Common",
+      "name": "Royal Giant",
+      "card_id": 26000024
+    },
+    {
+      "src": "assets/imgs/cards/GuardsCard.png",
+      "elixir": 3,
+      "rarity": "Epic",
+      "name": "Guards",
+      "card_id": 26000025
+    },
+    {
+      "src": "assets/imgs/cards/PrincessCard.png",
+      "elixir": 3,
+      "rarity": "Legendary",
+      "name": "Princess",
+      "card_id": 26000026
+    },
+    {
+      "src": "assets/imgs/cards/DarkPrinceCard.png",
+      "elixir": 4,
+      "rarity": "Epic",
+      "name": "Dark Prince",
+      "card_id": 26000027
+    },
+    {
+      "src": "assets/imgs/cards/ThreeMusketeersCard.png",
+      "elixir": 9,
+      "rarity": "Rare",
+      "name": "Three Musketeers",
+      "card_id": 26000028
+    },
+    {
+      "src": "assets/imgs/cards/LavaHoundCard.png",
+      "elixir": 7,
+      "rarity": "Legendary",
+      "name": "Lava Hound",
+      "card_id": 26000029
+    },
+    {
+      "src": "assets/imgs/cards/IceSpiritCard.png",
+      "elixir": 1,
+      "rarity": "Common",
+      "name": "Ice Spirit",
+      "card_id": 26000030
+    },
+    {
+      "src": "assets/imgs/cards/FireSpiritsCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Fire Spirits",
+      "card_id": 26000031
+    },
+    {
+      "src": "assets/imgs/cards/MinerCard.png",
+      "elixir": 3,
+      "rarity": "Legendary",
+      "name": "Miner",
+      "card_id": 26000032
+    },
+    {
+      "src": "assets/imgs/cards/SparkyCard.png",
+      "elixir": 6,
+      "rarity": "Legendary",
+      "name": "Sparky",
+      "card_id": 26000033
+    },
+    {
+      "src": "assets/imgs/cards/BowlerCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Bowler",
+      "card_id": 26000034
+    },
+    {
+      "src": "assets/imgs/cards/LumberjackCard.png",
+      "elixir": 4,
+      "rarity": "Legendary",
+      "name": "Lumberjack",
+      "card_id": 26000035
+    },
+    {
+      "src": "assets/imgs/cards/BattleRamCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Battle Ram",
+      "card_id": 26000036
+    },
+    {
+      "src": "assets/imgs/cards/InfernoDragonCard.png",
+      "elixir": 4,
+      "rarity": "Legendary",
+      "name": "Inferno Dragon",
+      "card_id": 26000037
+    },
+    {
+      "src": "assets/imgs/cards/IceGolemCard.png",
+      "elixir": 2,
+      "rarity": "Rare",
+      "name": "Ice Golem",
+      "card_id": 26000038
+    },
+    {
+      "src": "assets/imgs/cards/MegaMinionCard.png",
+      "elixir": 3,
+      "rarity": "Rare",
+      "name": "Mega Minion",
+      "card_id": 26000039
+    },
+    {
+      "src": "assets/imgs/cards/DartGoblinCard.png",
+      "elixir": 3,
+      "rarity": "Rare",
+      "name": "Dart Goblin",
+      "card_id": 26000040
+    },
+    {
+      "src": "assets/imgs/cards/GoblinGangCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Goblin Gang",
+      "card_id": 26000041
+    },
+    {
+      "src": "assets/imgs/cards/ElectroWizardCard.png",
+      "elixir": 4,
+      "rarity": "Legendary",
+      "name": "Electro Wizard",
+      "card_id": 26000042
+    },
+    {
+      "src": "assets/imgs/cards/EliteBarbariansCard.png",
+      "elixir": 6,
+      "rarity": "Common",
+      "name": "Elite Barbarians",
+      "card_id": 26000043
+    },
+    {
+      "src": "assets/imgs/cards/HunterCard.png",
+      "elixir": 4,
+      "rarity": "Epic",
+      "name": "Hunter",
+      "card_id": 26000044
+    },
+    {
+      "src": "assets/imgs/cards/ExecutionerCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Executioner",
+      "card_id": 26000045
+    },
+    {
+      "src": "assets/imgs/cards/BanditCard.png",
+      "elixir": 3,
+      "rarity": "Legendary",
+      "name": "Bandit",
+      "card_id": 26000046
+    },
+    {
+      "src": "assets/imgs/cards/RoyalRecruitsCard.png",
+      "elixir": 8,
+      "rarity": "Common",
+      "name": "Royal Recruits",
+      "card_id": 26000047
+    },
+    {
+      "src": "assets/imgs/cards/NightWitchCard.png",
+      "elixir": 4,
+      "rarity": "Legendary",
+      "name": "Night Witch",
+      "card_id": 26000048
+    },
+    {
+      "src": "assets/imgs/cards/BatsCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Bats",
+      "card_id": 26000049
+    },
+    {
+      "src": "assets/imgs/cards/RoyalGhostCard.png",
+      "elixir": 3,
+      "rarity": "Legendary",
+      "name": "Royal Ghost",
+      "card_id": 26000050
+    },
+    {
+      "src": "assets/imgs/cards/ZappiesCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Zappies",
+      "card_id": 26000052
+    },
+    {
+      "src": "assets/imgs/cards/RascalsCard.png",
+      "elixir": 5,
+      "rarity": "Common",
+      "name": "Rascals",
+      "card_id": 26000053
+    },
+    {
+      "src": "assets/imgs/cards/CannonCartCard.png",
+      "elixir": 5,
+      "rarity": "Epic",
+      "name": "Cannon Cart",
+      "card_id": 26000054
+    },
+    {
+      "src": "assets/imgs/cards/MegaKnightCard.png",
+      "elixir": 7,
+      "rarity": "Legendary",
+      "name": "Mega Knight",
+      "card_id": 26000055
+    },
+    {
+      "src": "assets/imgs/cards/SkeletonBarrelCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Skeleton Barrel",
+      "card_id": 26000056
+    },
+    {
+      "src": "assets/imgs/cards/FlyingMachineCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Flying Machine",
+      "card_id": 26000057
+    },
+    {
+      "src": "assets/imgs/cards/RoyalHogsCard.png",
+      "elixir": 5,
+      "rarity": "Rare",
+      "name": "Royal Hogs",
+      "card_id": 26000059
+    },
+    {
+      "src": "assets/imgs/cards/GoblinGiantCard.png",
+      "elixir": 6,
+      "rarity": "Epic",
+      "name": "Goblin Giant",
+      "card_id": 26000060
+    },
+    {
+      "src": "assets/imgs/cards/MagicArcherCard.png",
+      "elixir": 4,
+      "rarity": "Legendary",
+      "name": "Magic Archer",
+      "card_id": 26000062
+    },
+    {
+      "src": "assets/imgs/cards/CannonCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Cannon",
+      "card_id": 27000000
+    },
+    {
+      "src": "assets/imgs/cards/GoblinHutCard.png",
+      "elixir": 5,
+      "rarity": "Rare",
+      "name": "Goblin Hut",
+      "card_id": 27000001
+    },
+    {
+      "src": "assets/imgs/cards/MortarCard.png",
+      "elixir": 4,
+      "rarity": "Common",
+      "name": "Mortar",
+      "card_id": 27000002
+    },
+    {
+      "src": "assets/imgs/cards/InfernoTowerCard.png",
+      "elixir": 5,
+      "rarity": "Rare",
+      "name": "Inferno Tower",
+      "card_id": 27000003
+    },
+    {
+      "src": "assets/imgs/cards/BombTowerCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Bomb Tower",
+      "card_id": 27000004
+    },
+    {
+      "src": "assets/imgs/cards/BarbarianHutCard.png",
+      "elixir": 7,
+      "rarity": "Rare",
+      "name": "Barbarian Hut",
+      "card_id": 27000005
+    },
+    {
+      "src": "assets/imgs/cards/TeslaCard.png",
+      "elixir": 4,
+      "rarity": "Common",
+      "name": "Tesla",
+      "card_id": 27000006
+    },
+    {
+      "src": "assets/imgs/cards/ElixirCollectorCard.png",
+      "elixir": 6,
+      "rarity": "Rare",
+      "name": "Elixir Collector",
+      "card_id": 27000007
+    },
+    {
+      "src": "assets/imgs/cards/X-BowCard.png",
+      "elixir": 6,
+      "rarity": "Epic",
+      "name": "X-Bow",
+      "card_id": 27000008
+    },
+    {
+      "src": "assets/imgs/cards/TombstoneCard.png",
+      "elixir": 3,
+      "rarity": "Rare",
+      "name": "Tombstone",
+      "card_id": 27000009
+    },
+    {
+      "src": "assets/imgs/cards/FurnaceCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Furnace",
+      "card_id": 27000010
+    },
+    {
+      "src": "assets/imgs/cards/FireballCard.png",
+      "elixir": 4,
+      "rarity": "Rare",
+      "name": "Fireball",
+      "card_id": 28000000
+    },
+    {
+      "src": "assets/imgs/cards/ArrowsCard.png",
+      "elixir": 3,
+      "rarity": "Common",
+      "name": "Arrows",
+      "card_id": 28000001
+    },
+    {
+      "src": "assets/imgs/cards/RageCard.png",
+      "elixir": 2,
+      "rarity": "Epic",
+      "name": "Rage",
+      "card_id": 28000002
+    },
+    {
+      "src": "assets/imgs/cards/RocketCard.png",
+      "elixir": 6,
+      "rarity": "Rare",
+      "name": "Rocket",
+      "card_id": 28000003
+    },
+    {
+      "src": "assets/imgs/cards/GoblinBarrelCard.png",
+      "elixir": 3,
+      "rarity": "Epic",
+      "name": "Goblin Barrel",
+      "card_id": 28000004
+    },
+    {
+      "src": "assets/imgs/cards/FreezeCard.png",
+      "elixir": 4,
+      "rarity": "Epic",
+      "name": "Freeze",
+      "card_id": 28000005
+    },
+    {
+      "src": "assets/imgs/cards/MirrorCard.png",
+      "elixir": 0,
+      "rarity": "Epic",
+      "name": "Mirror",
+      "card_id": 28000006
+    },
+    {
+      "src": "assets/imgs/cards/LightningCard.png",
+      "elixir": 6,
+      "rarity": "Epic",
+      "name": "Lightning",
+      "card_id": 28000007
+    },
+    {
+      "src": "assets/imgs/cards/ZapCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Zap",
+      "card_id": 28000008
+    },
+    {
+      "src": "assets/imgs/cards/PoisonCard.png",
+      "elixir": 4,
+      "rarity": "Epic",
+      "name": "Poison",
+      "card_id": 28000009
+    },
+    {
+      "src": "assets/imgs/cards/GraveyardCard.png",
+      "elixir": 5,
+      "rarity": "Legendary",
+      "name": "Graveyard",
+      "card_id": 28000010
+    },
+    {
+      "src": "assets/imgs/cards/TheLogCard.png",
+      "elixir": 2,
+      "rarity": "Legendary",
+      "name": "The Log",
+      "card_id": 28000011
+    },
+    {
+      "src": "assets/imgs/cards/TornadoCard.png",
+      "elixir": 3,
+      "rarity": "Epic",
+      "name": "Tornado",
+      "card_id": 28000012
+    },
+    {
+      "src": "assets/imgs/cards/CloneCard.png",
+      "elixir": 3,
+      "rarity": "Epic",
+      "name": "Clone",
+      "card_id": 28000013
+    },
+    {
+      "src": "assets/imgs/cards/BarbarianBarrelCard.png",
+      "elixir": 2,
+      "rarity": "Epic",
+      "name": "Barbarian Barrel",
+      "card_id": 28000015
+    },
+    {
+      "src": "assets/imgs/cards/HealCard.png",
+      "elixir": 3,
+      "rarity": "Rare",
+      "name": "Heal",
+      "card_id": 28000016
+    },
+    {
+      "src": "assets/imgs/cards/GiantSnowballCard.png",
+      "elixir": 2,
+      "rarity": "Common",
+      "name": "Giant Snowball",
+      "card_id": 28000017
+    }
+  ]

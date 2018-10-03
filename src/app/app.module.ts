@@ -30,7 +30,8 @@ import { CardDeckComponent } from "../components/card-deck/card-deck";
     HomePage,
     CardSelectionPage,
     DecksPage,
-    PopoverOptionsPage
+    PopoverOptionsPage,
+    CardDeckComponent
   ],
   providers: [
     StatusBar,

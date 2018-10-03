@@ -61,5 +61,24 @@ def sort_cards():
     file = open("rarity-desc.json", "w")
     file.write(str(asc))
     file.close()
+def arrayToMap():
+    f = open("cards.json", "r")
+    cards = json.loads(f.read())
+    # Given an object with name key, make the name the key with an object containing everything else as the value
+    def extractName(dict):
+        name = dict["name"]
+        dict.pop("name", None)
+        return {name: dict}
+    result = list(map(extractName, cards))
+    d = {}
+    index = 0
+    for res in result:
+        key = list(res.keys())[0]
+        d[key] = res[key]
+        index += 1
+    print(d)
+    # print("Found", index, "cards")
+    f.close();
 if __name__ == "__main__":
-    sort_cards()
+    # sort_cards()
+    arrayToMap()

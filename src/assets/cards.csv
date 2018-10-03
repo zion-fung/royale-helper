@@ -1,0 +1,89 @@
+src,elixir,rarity,name,card_id
+assets/imgs/cards/ArchersCard.png,3,Common,Archers,26000001
+assets/imgs/cards/ArrowsCard.png,3,Common,Arrows,28000001
+assets/imgs/cards/BabyDragonCard.png,4,Epic,Baby Dragon,26000015
+assets/imgs/cards/BalloonCard.png,5,Epic,Balloon,26000006
+assets/imgs/cards/BanditCard.png,3,Legendary,Bandit,26000046
+assets/imgs/cards/BarbarianBarrelCard.png,2,Epic,Barbarian Barrel,28000015
+assets/imgs/cards/BarbarianHutCard.png,7,Rare,Barbarian Hut,27000005
+assets/imgs/cards/BarbariansCard.png,5,Common,Barbarians,26000008
+assets/imgs/cards/BatsCard.png,2,Common,Bats,26000049
+assets/imgs/cards/BattleRamCard.png,4,Rare,Battle Ram,26000036
+assets/imgs/cards/BombTowerCard.png,4,Rare,Bomb Tower,27000004
+assets/imgs/cards/BomberCard.png,3,Common,Bomber,26000013
+assets/imgs/cards/BowlerCard.png,5,Epic,Bowler,26000034
+assets/imgs/cards/CannonCard.png,3,Common,Cannon,27000000
+assets/imgs/cards/CannonCartCard.png,5,Epic,Cannon Cart,26000054
+assets/imgs/cards/CloneCard.png,3,Epic,Clone,28000013
+assets/imgs/cards/DarkPrinceCard.png,4,Epic,Dark Prince,26000027
+assets/imgs/cards/DartGoblinCard.png,3,Rare,Dart Goblin,26000040
+assets/imgs/cards/ElectroWizardCard.png,4,Legendary,Electro Wizard,26000042
+assets/imgs/cards/EliteBarbariansCard.png,6,Common,Elite Barbarians,26000043
+assets/imgs/cards/ElixirCollectorCard.png,6,Rare,Elixir Collector,27000007
+assets/imgs/cards/ExecutionerCard.png,5,Epic,Executioner,26000045
+assets/imgs/cards/FireSpiritsCard.png,2,Common,Fire Spirits,26000031
+assets/imgs/cards/FireballCard.png,4,Rare,Fireball,28000000
+assets/imgs/cards/FlyingMachineCard.png,4,Rare,Flying Machine,26000057
+assets/imgs/cards/FreezeCard.png,4,Epic,Freeze,28000005
+assets/imgs/cards/FurnaceCard.png,4,Rare,Furnace,27000010
+assets/imgs/cards/GiantCard.png,5,Rare,Giant,26000003
+assets/imgs/cards/GiantSkeletonCard.png,6,Epic,Giant Skeleton,26000020
+assets/imgs/cards/GiantSnowballCard.png,2,Common,Giant Snowball,28000017
+assets/imgs/cards/GoblinBarrelCard.png,3,Epic,Goblin Barrel,28000004
+assets/imgs/cards/GoblinGangCard.png,3,Common,Goblin Gang,26000041
+assets/imgs/cards/GoblinGiantCard.png,6,Epic,Goblin Giant,26000060
+assets/imgs/cards/GoblinHutCard.png,5,Rare,Goblin Hut,27000001
+assets/imgs/cards/GoblinsCard.png,2,Common,Goblins,26000002
+assets/imgs/cards/GolemCard.png,8,Epic,Golem,26000009
+assets/imgs/cards/GraveyardCard.png,5,Legendary,Graveyard,28000010
+assets/imgs/cards/GuardsCard.png,3,Epic,Guards,26000025
+assets/imgs/cards/HealCard.png,3,Rare,Heal,28000016
+assets/imgs/cards/HogRiderCard.png,4,Rare,Hog Rider,26000021
+assets/imgs/cards/HunterCard.png,4,Epic,Hunter,26000044
+assets/imgs/cards/IceGolemCard.png,2,Rare,Ice Golem,26000038
+assets/imgs/cards/IceSpiritCard.png,1,Common,Ice Spirit,26000030
+assets/imgs/cards/IceWizardCard.png,3,Legendary,Ice Wizard,26000023
+assets/imgs/cards/InfernoDragonCard.png,4,Legendary,Inferno Dragon,26000037
+assets/imgs/cards/InfernoTowerCard.png,5,Rare,Inferno Tower,27000003
+assets/imgs/cards/KnightCard.png,3,Common,Knight,26000000
+assets/imgs/cards/LavaHoundCard.png,7,Legendary,Lava Hound,26000029
+assets/imgs/cards/LightningCard.png,6,Epic,Lightning,28000007
+assets/imgs/cards/LumberjackCard.png,4,Legendary,Lumberjack,26000035
+assets/imgs/cards/MagicArcherCard.png,4,Legendary,Magic Archer,26000062
+assets/imgs/cards/MegaKnightCard.png,7,Legendary,Mega Knight,26000055
+assets/imgs/cards/MegaMinionCard.png,3,Rare,Mega Minion,26000039
+assets/imgs/cards/MinerCard.png,3,Legendary,Miner,26000032
+assets/imgs/cards/MiniPEKKACard.png,4,Rare,Mini P.E.K.K.A,26000018
+assets/imgs/cards/MinionHordeCard.png,5,Common,Minion Horde,26000022
+assets/imgs/cards/MinionsCard.png,3,Common,Minions,26000005
+assets/imgs/cards/MirrorCard.png,0,Epic,Mirror,28000006
+assets/imgs/cards/MortarCard.png,4,Common,Mortar,27000002
+assets/imgs/cards/MusketeerCard.png,4,Rare,Musketeer,26000014
+assets/imgs/cards/NightWitchCard.png,4,Legendary,Night Witch,26000048
+assets/imgs/cards/PEKKACard.png,7,Epic,P.E.K.K.A,26000004
+assets/imgs/cards/PoisonCard.png,4,Epic,Poison,28000009
+assets/imgs/cards/PrinceCard.png,5,Epic,Prince,26000016
+assets/imgs/cards/PrincessCard.png,3,Legendary,Princess,26000026
+assets/imgs/cards/RageCard.png,2,Epic,Rage,28000002
+assets/imgs/cards/RascalsCard.png,5,Common,Rascals,26000053
+assets/imgs/cards/RocketCard.png,6,Rare,Rocket,28000003
+assets/imgs/cards/RoyalGhostCard.png,3,Legendary,Royal Ghost,26000050
+assets/imgs/cards/RoyalGiantCard.png,6,Common,Royal Giant,26000024
+assets/imgs/cards/RoyalHogsCard.png,5,Rare,Royal Hogs,26000059
+assets/imgs/cards/RoyalRecruitsCard.png,8,Common,Royal Recruits,26000047
+assets/imgs/cards/SkeletonArmyCard.png,3,Epic,Skeleton Army,26000012
+assets/imgs/cards/SkeletonBarrelCard.png,3,Common,Skeleton Barrel,26000056
+assets/imgs/cards/SkeletonsCard.png,1,Common,Skeletons,26000010
+assets/imgs/cards/SparkyCard.png,6,Legendary,Sparky,26000033
+assets/imgs/cards/SpearGoblinsCard.png,2,Common,Spear Goblins,26000019
+assets/imgs/cards/TeslaCard.png,4,Common,Tesla,27000006
+assets/imgs/cards/TheLogCard.png,2,Legendary,The Log,28000011
+assets/imgs/cards/ThreeMusketeersCard.png,9,Rare,Three Musketeers,26000028
+assets/imgs/cards/TombstoneCard.png,3,Rare,Tombstone,27000009
+assets/imgs/cards/TornadoCard.png,3,Epic,Tornado,28000012
+assets/imgs/cards/ValkyrieCard.png,4,Rare,Valkyrie,26000011
+assets/imgs/cards/WitchCard.png,5,Epic,Witch,26000007
+assets/imgs/cards/WizardCard.png,5,Rare,Wizard,26000017
+assets/imgs/cards/X-BowCard.png,6,Epic,X-Bow,27000008
+assets/imgs/cards/ZapCard.png,2,Common,Zap,28000008
+assets/imgs/cards/ZappiesCard.png,4,Rare,Zappies,26000052
