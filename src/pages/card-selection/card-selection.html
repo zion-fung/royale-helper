@@ -1,0 +1,13 @@
+<ion-content>
+        <div class="topElements">
+            <ion-searchbar (ionInput)="filterCards($event)"></ion-searchbar>
+            <button (click)="changeSortMethod()" ion-button style="float:right">Sort by: {{sortMethod[index]}}</button>
+        </div>
+        <ion-list class="cardSelectionParent" no-lines>
+            <div style="width:100%;padding-top:5px">
+                <ion-searchbar style="visibility: hidden;"></ion-searchbar>
+                <button ion-button style="visibility: hidden;" full></button>
+            </div>
+            <img style="width:25%;" *ngFor="let card of cards" [src]="card.src" (click)="chooseCard($event)">
+        </ion-list>
+</ion-content>

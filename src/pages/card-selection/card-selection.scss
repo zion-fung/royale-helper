@@ -1,0 +1,33 @@
+page-card-selection {
+    
+}
+.card-selection-cards {
+    width: 24%;
+    display: inline-block;
+}
+.cardSelectionParent {
+    position: relative;
+    // top: 15%;
+    background-color: lightslategray;
+    // z-index: -1;
+    // padding-top: 25%;
+}
+.topElements {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    opacity: 1;
+}
+.topHiddenElements {
+    width: 100%;
+    // z-index: 1;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // background-color: lightgray;
+    // opacity: 1;
+    visibility: hidden;
+}

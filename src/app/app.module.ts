@@ -6,11 +6,19 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { CardSelectionPage } from "../pages/card-selection/card-selection";
+import { DecksPage } from "../pages/decks/decks";
+import { PopoverOptionsPage } from "../pages/popover-options/popover-options";
+import { CardDeckComponent } from "../components/card-deck/card-deck";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    CardSelectionPage,
+    DecksPage,
+    PopoverOptionsPage,
+    CardDeckComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +27,10 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    CardSelectionPage,
+    DecksPage,
+    PopoverOptionsPage
   ],
   providers: [
     StatusBar,
