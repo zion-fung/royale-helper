@@ -10,6 +10,7 @@ import { CardSelectionPage } from "../pages/card-selection/card-selection";
 import { DecksPage } from "../pages/decks/decks";
 import { PopoverOptionsPage } from "../pages/popover-options/popover-options";
 import { CardDeckComponent } from "../components/card-deck/card-deck";
+import { IonicStorageModule } from "@ionic/storage";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardDeckComponent } from "../components/card-deck/card-deck";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
