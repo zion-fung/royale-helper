@@ -17,7 +17,7 @@ import { CardDeckComponent } from "../../components/card-deck/card-deck";
 export class DecksPage {
     show = true;
     decks = new Set([1]);
-    // @ViewChild("parent", { read: ViewContainerRef}) parent: ViewContainerRef;
+    @ViewChild("parent", { read: ViewContainerRef}) parent: ViewContainerRef;
     constructor(public navCtrl: NavController, public navParams: NavParams, private _cfr: ComponentFactoryResolver) {
         
     }
@@ -30,6 +30,18 @@ export class DecksPage {
         // console.log(comp);
         // const cardDeck = this.parent.createComponent(comp);
         this.decks.add(new Date().getTime());
+    }
+    save() {
+        console.log(this.parent);
+        const children = this.parent.element.nativeElement.children;
+        for(const child of children) {
+            const cards = child.getElementsByClassName("cards")
+            for(const card of cards) {
+                console.log(card.src);
+            }
+            console.log(child.getElementsByClassName("deckName")[0].id);
+            console.log("------------");
+        }
     }
     deleteDeck(ev) {
         // console.log("Removing:", ev);

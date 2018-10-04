@@ -5,7 +5,7 @@
                 <ion-icon name="more" (click)="showAdditionalOptions($event)"></ion-icon>
             </div>
             <div class="pull-left">
-                <ion-input type="text" placeholder="Deck name..."></ion-input>
+                <ion-input type="text" placeholder="Deck name..." (keyup)="deckName=$event.target.value"></ion-input>
             </div>
         </ion-card-header>
             <div class="parent">
@@ -25,4 +25,5 @@
             </div>
             <ion-label class="elixirCost">Average Elixir Cost:{{averageElixirCost}}</ion-label>
     </div>
+    <div [id]="deckName" class="deckName"></div>
 </ion-card>
