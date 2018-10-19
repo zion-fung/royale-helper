@@ -53,27 +53,28 @@ export class DecksPage {
     ngOnDestroy() {
         // Save all decks to local storage
         this.saveDecks();
+        console.log("Destroy?");
     }
-    async saveDecks() {
+    saveDecks() {
         // console.log("Saving decks!");
         const decks = this.getDecks();
         console.log("Saving:", decks);
-        for(const key in decks) {
-            // Does it not support other objects?
-            console.log("Setting", key, "to", decks[key]);
-            await this.storage.set(key, decks[key]);
+        if(decks) {
+            
+            for(const key in decks) {
+                // Does it not support other objects?
+                console.log("Setting", key, "to", decks[key]);
+                this.storage.set(key, decks[key]);
+            }
         }
     }
-    async printDecks() {
-        await this.saveDecks();
-        this.storage.keys().then(
-            data => {
-                for(const key of data) {
-                    console.log(key, ":", data[key]);
-                }
-            }, error => {
-                console.log("Error retrieving storage:", error);
-            }
-        )
+    async deleteDecks() {
+        await this.storage.clear();
+    }
+    printDecks() {
+        this.saveDecks();
+        this.storage.forEach(function(value, key, iteration) {
+            console.log(key, ":", value);
+        });
     }
 }
