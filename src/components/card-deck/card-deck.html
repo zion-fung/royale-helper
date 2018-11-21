@@ -5,25 +5,25 @@
                 <ion-icon name="more" (click)="showAdditionalOptions($event)"></ion-icon>
             </div>
             <div class="pull-left">
-                <ion-input type="text" placeholder="Deck name..." (keyup)="deckName=$event.target.value"></ion-input>
+                <ion-input type="text" placeholder="Deck name..." (keyup)="name=$event.target.value" [value]="name"></ion-input>
             </div>
         </ion-card-header>
             <div class="parent">
                 <img class="background" src="assets/imgs/DeckBackground2.png">
                 <div class="topCards">
                     <img class="cards" [(src)]="deck[0]" (click)="openCardSelection($event, 0)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 1)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 2)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 3)">
+                    <img class="cards" [(src)]="deck[1]" (click)="openCardSelection($event, 1)">
+                    <img class="cards" [(src)]="deck[2]" (click)="openCardSelection($event, 2)">
+                    <img class="cards" [(src)]="deck[3]" (click)="openCardSelection($event, 3)">
                     </div>
                 <div class="bottomCards">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 4)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 5)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 6)">
-                    <img class="cards" src="assets/imgs/PlaceholderCard.png" (click)="openCardSelection($event, 7)">
+                    <img class="cards" [(src)]="deck[4]" (click)="openCardSelection($event, 4)">
+                    <img class="cards" [(src)]="deck[5]" (click)="openCardSelection($event, 5)">
+                    <img class="cards" [(src)]="deck[6]" (click)="openCardSelection($event, 6)">
+                    <img class="cards" [(src)]="deck[7]" (click)="openCardSelection($event, 7)">
                 </div>
             </div>
             <ion-label class="elixirCost">Average Elixir Cost:{{averageElixirCost}}</ion-label>
     </div>
-    <div [id]="deckName" class="deckName"></div>
+    <div [id]="name" class="deckName"></div>
 </ion-card>

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output, Input } from '@angular/core';
 import { CardSelectionPage } from "../../pages/card-selection/card-selection";
-import { ModalController, ActionSheetController, AlertController, Alert } from "ionic-angular";
+import { ModalController, ActionSheetController, AlertController } from "ionic-angular";
 import { CardInformation } from "../../card-information";
 
 /**
@@ -18,10 +18,10 @@ export class CardDeckComponent {
     // @ViewChild("parent", {read: ElementRef}) card;
     @Output() destroyCheck:EventEmitter<string> = new EventEmitter<string>();
     @Input() input;
+    @Input() name;
     constructor(public modalCtrl: ModalController, private action: ActionSheetController, private alertCtrl: AlertController) {
-        this.deck = ["assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png"];
     }
-    deck = [];
+    @Input() deck = ["assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png", "assets/imgs/PlaceholderCard.png"];
     openCardSelection(event, index) {
         const modal = this.modalCtrl.create(CardSelectionPage);
         modal.onDidDismiss(data => {
@@ -82,12 +82,12 @@ export class CardDeckComponent {
         let total:number = 0;
         let hasMirror:boolean = false;
         for(const card of this.deck) {
-            if(card == this.defaultPath) {
+            if(card.indexOf("Placeholder") != -1) {
                 return;
             }
             const card_name = CardInformation.pathToName(card);
             // console.log("Searching for", card_name);
-            const elixir = Number(CardInformation.getCardInfo(card_name).elixir);
+            const elixir = Number(CardInformation.getCardInfo(card_name)["elixir"]);
             total += elixir;
             if(elixir == 0) {
                 hasMirror = true;

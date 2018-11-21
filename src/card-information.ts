@@ -46,6 +46,6 @@ export class CardInformation {
         for(const card of cards) {
             url += CardInformation.cardsMap[card].card_id + ";";
         }
-        return url;
+        return url.substring(0, url.length - 1);
     }
 }
