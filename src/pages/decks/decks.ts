@@ -18,7 +18,7 @@ export class DecksPage {
     show = true;
     decks = new Set();
     @ViewChild("parent", { read: ViewContainerRef}) parent: ViewContainerRef;
-    constructor(public navCtrl: NavController, public navParams: NavParams, private _cfr: ComponentFactoryResolver, private storage: Storage, private action: ActionSheetController, private alert: AlertController) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage, private action: ActionSheetController, private alert: AlertController) {
         
     }
     ionViewDidLoad() {
@@ -57,8 +57,14 @@ export class DecksPage {
         return decks;
     }
     deleteDeck(ev) {
+        // ev is the id of the deck that we want to delete
         // console.log("Removing:", ev);
-        this.decks.delete(ev);
+        this.decks.forEach((deck) => this.deleteDeckById(deck, ev))
+    }
+    deleteDeckById(deck, id) {
+        if(deck.id == id) {
+            this.decks.delete(deck);
+        }
     }
     ngOnDestroy() {
         // Save all decks to local storage

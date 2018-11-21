@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output, Input } from '@angular/core';
 import { CardSelectionPage } from "../../pages/card-selection/card-selection";
-import { ModalController, ActionSheetController, AlertController, Alert } from "ionic-angular";
+import { ModalController, ActionSheetController, AlertController } from "ionic-angular";
 import { CardInformation } from "../../card-information";
 
 /**

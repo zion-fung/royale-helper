@@ -14,7 +14,7 @@
 </ion-header>
 <ion-content padding>
     <div class="parent" id="parent" #parent>
-        <card-deck [deck]="deck['deck']" [name]="deck['name']" *ngFor="let deck of decks" (destroyCheck)="deleteDeck($event)"></card-deck>
+        <card-deck [input]="deck['id']" [deck]="deck['deck']" [name]="deck['name']" *ngFor="let deck of decks" (destroyCheck)="deleteDeck($event)"></card-deck>
     </div>
     <ion-fab bottom right>
         <button ion-fab (click)="addEmptyDeck()"><ion-icon name="add"></ion-icon></button>
